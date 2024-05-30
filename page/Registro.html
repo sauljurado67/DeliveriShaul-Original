@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+    <script src="https://kit.fontawesome.com/c2cd97bceb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DeliveryShaul</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="sli">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <div class="bars__menu">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
+            </label>
+            <a href="../index.html" class="enlace">
+                <h1>Delibery Shaul</h1>
+            </a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../page/Nosotros.html">Nosotros</a></li>
+                <li><a href="../page/Contacto.html">Contactos</a></li>
+                <li><a href="../page/About.html">About</a></li>
+                <li><a href="../page/Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="regis">
+            <h2>Formulario de Registro</h2><br>
+            <form action="../page/datajs.html" target="_self">
+                <label for="firstname">Nombre: </label> <input type="text" name="Nombre"
+                    placeholder="Ingrese su nombre aquí..."> <br><br>
+                <label for="lastname">Apellido: </label> <input type="text" name="Apellido"
+                    placeholder="Ingrese su apellido aquí..."> <br><br>
+                <label for="street">Dirección: </label> <input type="text" name="Direccion"
+                    placeholder="Ingrese su dirección aquí..."> <br><br>
+                <label for="email">Email: </label> <input type="email" required name="email" placeholder="@email">
+                <br><br>
+                <label for="password">Contraseña: </label> <input type="password" required name="password"> <br><br>
+                <label for="BirthDate">Fecha de Nac. (dd/mm/yyyy): </label> <input type="text" name="Fecha_Nac.">
+                <br><br>
+                <p>Género
+                    <input type="radio" name="Genero" value="hombre" checked>hombre
+                    <input type="radio" name="Genero" value="Mujer">Mujer
+                    <input type="radio" name="Genero" value="Otro"> Otro
+                </p><br>
+                <p>Estudios:
+                    <input type="checkbox" name="Estudios" value="primarios">Primarios
+                    <input type="checkbox" name="Estudios" value="secundarios">Secundarios
+                    <input type="checkbox" name="Estudios" value="Terciarios">Terciarios
+                    <input type="checkbox" name="Estudios" value="universitarios">Universitarios
+                    <input type="checkbox" name="Estudios" value="otro">Otro
+                </p><br>
+                <input class="butto" type="submit" value="Enviar">
+            </form>
+            <br>
+        </section>
+    </main>
+
+    <footer>
+        <section class="menuRS">
+            <ul class="menuRed">
+                <li style="--i:5;" data-icon="&#89"><a href="https://www.youtube.com">Youtube</a></li>
+                <li style="--i:4;" data-icon="&#70"><a href="https://www.facebook.com/?locale=es_LA#">Facebook</a></li>
+                <li style="--i:3;" data-icon="&#73"><a href="https://www.instagram.com">Instagram</a></li>
+                <li style="--i:2;" data-icon="&#84"><a href="https://www.tiktok.com">TikTok</a></li>
+                <li style="--i:1;" data-icon="&#76"><a href="https://www.linkedin.com">Linkedin</a></li>
+            </ul>
+        </section>
+        <section class="yo">
+            <p>🐍 Desarrollado por Saul Alberto Jurado 🐍</p>
+        </section>
+        <section class="menuf">
+            <ul class="menufoot">
+                <li style="--i:5;" data-icon="&#127917"><a href="../index.html">Home</a></li>
+                <li style="--i:4;" data-icon="&#128107"><a href="./Nosotros.html">Nosotros</a></li>
+                <li style="--i:3;" data-icon="&#9993"><a href="./Contacto.html">Contactos</a></li>
+                <li style="--i:2;" data-icon="&#128190"><a href="./About.html">About</a></li>
+                <li style="--i:1;" data-icon="&#128273"><a href="./Login.html">Login</a></li>
+            </ul>
+        </section>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
